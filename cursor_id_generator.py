@@ -11,7 +11,7 @@ class CursorHelper:
     def __init__(self):
         self.window = tk.Tk()
         self.window.title("Cursor助手 Mac版本 v4.0 (本机 Cursor 版本: 0.45.15)")
-        self.window.geometry("450x500")
+        self.window.geometry("450x450")
         
         # ID Selection Frame
         id_frame = tk.Frame(self.window)
